@@ -1,7 +1,7 @@
 # Tự động triên khai Rundeck bằng Vagrant và Ansible.
 
 ##1. Mô hình.
-
+```sh
 |                                               |------ rundeck.yml
 |                             |-------- Ansible |
 |                             |                 |------ hosts
@@ -9,7 +9,7 @@
 |                             |
 |                             |-------- Vagrant => Create VM Ubutuntu 14.04 (26.26.26.26)
 |
-
+```
 ##2. Thực hiện.
 
 - Trước tiên chúng ta cần phải cài đặt `Vagrant` và `ansible` cho máy vật lý.

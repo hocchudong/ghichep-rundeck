@@ -97,8 +97,8 @@ sudo service rundeckd start
 
 - Tại đây chúng ta tiếp tục ấn vào `New Project` để bắt đầu tạo 1 Project mới :
 
-![scr3](/Doucuments/Rundeck/image/scr3.png)
+![scr3](/image/scr3.png)
 
 - Sau khi tạo xong chúng ta sẽ được 1 project trong như thế này :
 
-![scr4]()
+![scr4](/image/scr4.png)

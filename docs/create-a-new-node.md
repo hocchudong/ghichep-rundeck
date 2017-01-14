@@ -2,17 +2,17 @@
 
 - Để tạo một node mới chúng ta cần tạo một project mới :
 
-![scr4]()
+![scr4](/image/scr4.png)
 
 - Chúng ta ấn vào `New Project` và tiến hành đặt tên cho Project đó :
 
 - Trở lại trang chủ để xem danh sách các Project :
 
-![scr5]()
+![scr5](/image/scr5.png)
 
 - Ấn vào config (NÚt hình bánh răng phía trê màn hình bên phải ) chúng ta sẽ thấy được đường dẫn file cấu hình :
 
-![scr6]()
+![scr6](/image/scr6.png)
 
 - Dùng trình soạn thảo vi chỉnh sửa file  `/var/rundeck/projects/Test-Project/etc/resources.xml` 
 
@@ -56,6 +56,6 @@ service rundeckd restart
 
 - Truy cập lại vào web interface của Rundeck và kiểm tra lại kết quả :
 
-![scr7]()
+![scr7](/image/scr7.png)
 
 Updating ....

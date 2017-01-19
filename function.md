@@ -22,4 +22,4 @@
   + Ngày tháng.
 - Scheduler có bảng liệt kê 
 
-![function](/image/function)
+![function](/image/function.png)

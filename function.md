@@ -21,3 +21,5 @@
   + Thời gian (giờ phút)
   + Ngày tháng.
 - Scheduler có bảng liệt kê 
+
+![function](/image/function)

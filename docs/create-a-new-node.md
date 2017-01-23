@@ -1,7 +1,7 @@
 #Tạo node trên Rundeck
 
 ```sh
-Cách add thêm node tỏng Rundeck
+Cách add thêm node trong Rundeck
 ```
 
 - Trong Rundeck Project sẽ chứa các node được quản lý, mỗi project sẽ chứa một, một số node cần quản lý . bây giờ chúng ta tiến hành thực hiện thêm 1 node vào

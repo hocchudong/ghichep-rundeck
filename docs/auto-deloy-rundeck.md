@@ -58,7 +58,7 @@ sudo vi /etc/ansible/rundeck.yml
                 state=present
   - name: dowload Rundeck.
     get_url:
-      url=http://dl.bintray.com/rundeck/rundeck-deb/rundeck-2.2.1-1-GA.deb
+      url=http://dl.bintray.com/rundeck/rundeck-deb/rundeck-2.7.1-1-GA.deb
       dest=/tmp
   - name: cai dat Rundeck.
     command: sudo dpkg -i /tmp/rundeck-2.2.1-1-GA.deb

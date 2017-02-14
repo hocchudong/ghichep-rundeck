@@ -1,0 +1,43 @@
+
+
+                         how to Rundeck by sending email notifications?
+
+- Thay đổi đường dẫn file cấu hình tại "/etc/rundeck/profile"
+  đổi dòng :
+   -Drundeck.config.location=/etc/rundeck/rundeck-config.properties \
+  thành :
+   -Drundeck.config.location=/etc/rundeck/rundeck-config.groovy \
+- Sau đó sửa đổi file "/etc/rundeck/rundeck-config.groovy" như sau :
+
+rundeck.gui.title="VNPT Rundeck" # Dòng chữ bên trên Logo
+
+grails.serverURL="https://172.20.22.76:4443"  # là đường dẫn của Rundeck
+
+loglevel.default = "DEBUG"
+rdeck.base = "/var/lib/rundeck"
+rss.enabled = false
+
+dataSource {
+  dbCreate="update"
+  url="jdbc:h2:file:/var/lib/rundeck/data/rundeckdb;MVCC=true"
+}
+
+grails.mail.default.from="deployer@domain.com" 
+
+grails {
+  mail {
+    host = "smtp.gmail.com"
+    username = "my_gmail_logic@gmail.com" # Email mà chúng ta đang thiết lập.
+    port = 587
+    password = "mygmailpass" # Pass app.
+    props = ["mail.smtp.starttls.enable":"true", "mail.smtp.port":587, "mail.smtp.auth":"true"]
+  }
+}
+
+- bật IMAP
+
+- Xác minh 2 bước tại Email (http://www.google.com/landing/2step/)
+
+- Tạo mật khẩu ứng dụng (https://myaccount.google.com/security)
+
+OK TKs !!!
